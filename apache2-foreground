@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+
+exec apache2ctl -d /etc/apache2 -f apache2.conf -DFOREGROUND
